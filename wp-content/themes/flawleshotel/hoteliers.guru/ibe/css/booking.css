@@ -1,0 +1,388 @@
+
+/*-------------------------------------*/
+/* BOOKING */
+/*-------------------------------------*/
+.section-booking {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: auto;
+     background:#a29061
+}
+
+.section-booking .container {
+    width: 980px;
+    margin: auto;
+    padding: 25px 0;
+    background:#a29061;
+
+}
+
+.section-booking .container ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.section-booking .container ul li {
+    list-style: none;
+    float: left;
+    margin: 0 18px;
+
+}
+
+.section-booking .container .textreser label {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 8px 5px;
+    font-family: 'mongolian_baitiregular';
+
+
+}
+
+.section-booking .container #indate-calendar {
+    width: 85px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.section-booking .container #indate-calendar #indate-label {
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-booking .container #indate-calendar #inmonth-label {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-booking .container #indate-calendar:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    background: #cacaca;
+    margin: 15px 0 0 -15px;
+
+}
+
+.section-booking .container #indate-calendar:after {
+    content: "Check in";
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.section-booking .container #outdate-calendar {
+    width: 85px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.section-booking .container #outdate-calendar #outdate-label {
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-booking .container #outdate-calendar #outmonth-label {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-booking .container #outdate-calendar:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    background: #cacaca;
+    margin: 15px 0 0 -15px;
+
+}
+
+.section-booking .container #outdate-calendar:after {
+    content: "Check out";
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.section-booking .container select {
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 33px;
+    color: #cacaca;
+    font-weight: 400;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.section-booking .container select {
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.section-booking .container .room-type:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    background: #cacaca;
+    margin: 0 0 0 -15px;
+}
+
+.section-booking .container .room-type:after {
+    content: "Rooms";
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+.section-booking .container .night input{
+    position: relative;
+    z-index: 1;
+    width: 55px;
+    height: 50px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: -12px;
+    cursor: no-drop;
+}
+.section-booking .container .night:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    background: #cacaca;
+    margin: 0 0 0 -15px;
+}
+
+.section-booking .container .night:after {
+    content: "Night";
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.section-booking .container .room-type .select-ico {
+    position: relative;
+
+}
+
+.section-booking .container .room-type .select-ico:before {
+    position: absolute;
+    content: "\f107";
+    display: block;
+    font: normal normal normal 18px/1 FontAwesome;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    right: 5px;
+}
+
+.section-booking .container .night .select-ico {
+    position: relative;
+
+}
+
+.section-booking .container .night .select-ico:before {
+    position: absolute;
+    content: "\f107";
+    display: block;
+    font: normal normal normal 18px/1 FontAwesome;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    right: 5px;
+}
+
+.section-booking .container .promo_code input{
+    position: relative;
+    z-index: 2;
+    width: 90px;
+    height: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border:1px solid #cacaca;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+.section-booking .container .promo_code:before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    background: #cacaca;
+    margin: 0 0 0 -15px;
+}
+
+.section-booking .container .promo_code:after {
+    content: "promo code";
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+
+.btn-search input {
+    width: 100%;
+    padding: 14px;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    z-index: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.btn-search input:hover {
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    z-index: 1;
+    letter-spacing: 0.1em;
+}
+
+.btn-search {
+    color: #a29061;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+
+.btn-search:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    z-index: 1;
+    color: #000;
+}
+
+.btn-search:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+
+.book-mobile{
+    display: none;
+}
+
+#awe_checkavailability-3{
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    .section-booking {
+        display: none;
+    }
+    .book-mobile{
+        display: block;
+        background-color:#a29061;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 10000;
+    }
+    .book-mobile a{
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+
+    }
+    .book-mobile a:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+
+
+

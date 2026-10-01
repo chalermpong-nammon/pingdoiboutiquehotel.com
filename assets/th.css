@@ -1,0 +1,10 @@
+/* Thai pages: the theme's display font has no Thai glyphs and a tight line-height
+   that clips Thai vowels/tone marks. Loosen spacing for Thai only. */
+html[lang="th"] .media-header-big,
+html[lang="th"] .media-header-big a { font-size: 44px; line-height: 1.3; }
+html[lang="th"] h1, html[lang="th"] h2, html[lang="th"] h3, html[lang="th"] h4,
+html[lang="th"] .h1, html[lang="th"] .h3, html[lang="th"] .title-introhotel { line-height: 1.45; }
+html[lang="th"] .footer-widget-title { line-height: 1.5; }
+@media (max-width: 767px) {
+  html[lang="th"] .media-header-big, html[lang="th"] .media-header-big a { font-size: 32px; }
+}
